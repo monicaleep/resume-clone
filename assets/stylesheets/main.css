@@ -150,7 +150,26 @@ th {
 tr:first-child td{
 	padding-top: 30px
 	}
-	
+
+progress {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 2px;
+  width: 120px;
+  background: #888;
+  color: #028CD5; }
+
+progress::-webkit-progress-bar {
+  background: #888;
+  border-radius: 2px; }
+
+progress::-webkit-progress-value {
+  background-color: #028CD5;
+  border-radius: 2px; }
+
+progress::-moz-progress-bar {
+  background: #028CD5; }
 	
 	
 /**
