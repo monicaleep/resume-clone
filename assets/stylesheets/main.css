@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* 
+HTML5 display-role reset for older browsers
+ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+Grid
+**/
+
+.container1 { 
+  padding:22px 100px	;
+}
+.container2 { 
+  padding:0px 100px	;
+}
+#left-column {
+	box-shadow: 10px -0px 5px grey;
+	}	
+
+/** 
+Custom Styles
+**/
+h1 {
+	font-family:Lato;
+	font-size:40px;
+	line-height:80px;
+	letter-spacing:1px;
+	}
+h2 {
+	line-height:36px;
+	font-family:Lato;
+	font-size:20px;
+}	
+
+h3 {
+	font-family:Lato;
+	font-size:20px;
+	line-height: 28px;
+	padding-top:20px;
+	color:#008ae6;
+	}
+
+p {
+	font-family:lato;
+	}	
+	
+/**
+Nav
+**/
+.nav1 {
+padding: 50px 100px;
+font-family:lato;
+background:#008ae6;
+text-transform:uppercase;
+}
+.nav1 a{
+	color:white;
+	padding: 20px 20px;	
+	line-height: 50px;	
+	}
+	
+.nav1 li:hover{
+	border-bottom: solid white 3px;
+	}
+.nav1 a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	}
+/**
+Header
+**/
+header {
+	background-color:#1aa3ff;
+	padding:33px 100px;
+	color:white;
+	}
+	
+/**
+Hero
+**/
+.hero {
+	background-color:#666666;
+	color: white;
+	font-family:lato;
+	font-size:14px;
+	line-height:20px;
+	box-shadow: 0px 5px 5px grey;	
+	}
+	
+/*
+Tables
+*/
+
+th,td{
+	font-family:lato;
+	padding: 12px 0;
+	border-bottom: 1px solid #cecfd5	
+	}
+	
+th {
+	font-weight:bold;
+	padding-right: 15px;
+	}
+	
+tr:first-child td{
+	padding-top: 30px
+	}
+	
+	
+	
+/**
+Footer
+*/
+.contact {
+background-color:#1aa3ff;
+text-align:center;
+color:white;
+}
+
+footer {
+	background-color:#008ae6;
+	text-align:center;
+	color:white;
+	}
