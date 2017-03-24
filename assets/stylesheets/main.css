@@ -210,11 +210,12 @@ progress::-moz-progress-bar {
 Circles
 **/
 .circle-section {
-	width:100%;
-	height:150px;
+	width:600px;
+	height:170px;
 	margin: 10px;
 	text-align:center;
 	padding-top:10px;
+	border: solid black 1px;
 	display:block;
 	}	
 .circle-section span {
