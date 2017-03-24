@@ -234,6 +234,7 @@ Footer
 	color:#008ae6;}	
 .social {
 	display:inline-block;
+	border:solid black 1px;
 	}
 .social:nth-child(2n){
 	padding: 0 150px;
