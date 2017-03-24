@@ -215,7 +215,6 @@ Circles
 	margin: 10px;
 	text-align:center;
 	padding-top:10px;
-	border: solid black 1px;
 	display:block;
 	}	
 .circle-section span {
@@ -234,7 +233,6 @@ Footer
 	color:#008ae6;}	
 .social {
 	display:inline-block;
-	border:solid black 1px;
 	}
 .social:nth-child(2n){
 	padding: 0 150px;
