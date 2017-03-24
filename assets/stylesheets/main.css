@@ -87,11 +87,17 @@ h3 {
 
 p {
 	font-family:lato;
+	}
+
+.fa-stack .fa-circle {
+	color:#bfd7fc;}	
+.fa-stack {
+	padding:7px 45px;
 	}	
-	
 /**
 Nav
 **/
+
 .nav1 {
 padding: 50px 100px;
 font-family:lato;
@@ -136,37 +142,46 @@ Hero
 Tables
 */
 
-th,td{
-	font-family:lato;
-	padding: 12px 0;
+.personal th,
+.personal td{
 	border-bottom: 1px solid #cecfd5	
 	}
-	
+.hobbies td {
+	text-align:center;
+	padding-top: 0;
+	padding-bottom: 5px;
+	}	
+th,td {
+font-family:lato;
+padding: 12px 0;
+}
+
 th {
 	font-weight:bold;
 	padding-right: 15px;
 	}
 	
 tr:first-child td{
-	padding-top: 30px
+	padding-top: 20px
 	}
 
 progress {
   -moz-appearance: none;
   -webkit-appearance: none;
   border: none;
-  border-radius: 2px;
-  width: 120px;
+  border-radius: 5px;
+  width: 150px;
+  margin-left:15px;
   background: #888;
   color: #028CD5; }
 
 progress::-webkit-progress-bar {
   background: #888;
-  border-radius: 2px; }
+  border-radius: 5px; }
 
 progress::-webkit-progress-value {
   background-color: #028CD5;
-  border-radius: 2px; }
+  border-radius: 5px; }
 
 progress::-moz-progress-bar {
   background: #028CD5; }
@@ -186,3 +201,5 @@ footer {
 	text-align:center;
 	color:white;
 	}
+	
+	
