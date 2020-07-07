@@ -146,15 +146,13 @@ Grid
 #left-column {
   box-shadow: 5px 0 5px -5px rgba(0, 0, 0, .4);
   padding-left: 50px;
-  flex-basis: 1;
-  flex-grow: 2;
-  /* flex-shrink: 40%; */
+  flex: 0 0 400px;
 }
 
 #right-column {
   padding-left: 50px;
-  flex-grow: 2;
-  flex-basis: 2;
+  /* flex-grow: 2; */
+  /* flex-basis: 100%; */
 }
 
 /*
