@@ -239,12 +239,12 @@ progress::-moz-progress-bar {
 Circles
 **/
 .circle-section {
-  height: 170px;
   margin: 10px;
   text-align: center;
   padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .circle-section span {
@@ -253,6 +253,7 @@ Circles
   line-height: 110px;
   width: 100%;
 }
+
 
 /**
 Footer
