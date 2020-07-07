@@ -268,12 +268,9 @@ Footer
   justify-content:space-around;
 }
 
-
-
 .social a p {
   color: white
 }
-
 
 .contact {
   background-color: #1aa3ff;
@@ -291,4 +288,26 @@ footer {
 
 footer small {
   float: right;
+}
+
+@media (max-width: 600px){
+  .main {
+    display: flex;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+
+  #left-column {
+    padding-left: 20px;
+    flex-grow: 2;
+  }
+
+  #right-column {
+    padding-left: 20px;
+    /* flex-grow: 2; */
+    /* flex-basis: 100%; */
+  }
+  .contact, footer{
+    font-size: 12px;
+  }
 }
