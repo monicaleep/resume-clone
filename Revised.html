@@ -6,7 +6,6 @@
   <meta name="author" content="Monica Parrillo">
   <title>Resume Clone</title>
   <link rel="stylesheet" href="assets/stylesheets/circle.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
   <link rel="stylesheet" href="assets/stylesheets/main.css">
@@ -14,7 +13,7 @@
 
 <body>
   <nav>
-    <ul class="nav-pills nav1">
+    <ul class="nav">
       <li><a href="#">Hello</a></li>
       <li><a href="#">Resume</a></li>
       <li><a href="#">Portfolio</a></li>
@@ -22,23 +21,22 @@
   </nav>
 
   <header>
-    <h1>Boris Shah</h1>
-    <h2> Developer</h2>
+    <h1>Monica Parrillo</h1>
+    <h2>Full-Stack Developer</h2>
   </header>
 
   <!-- Hero  -->
-  <section class="container1 row1 hero">
+  <section class="hero">
     <p> This guy is very good at building websites and doing other fluffy things. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate, lacus eu auctor efficitur, massa libero malesuada erat, eget cursus tortor dolor eu
-      nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+      nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elLorem ipsum dolor sit amet, consectetur adipiscing el Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
   </section>
 
   <!-- Resume details  -->
-  <section class="container2 container-fluid">
-    <div>
-      <div class="col-md-4" id="left-column">
+
+    <section class="main">
+      <div id="left-column">
         <section id="personal">
           <h3>Personal</h3>
-
           <table class="info">
             <tbody>
               <tr>
@@ -85,25 +83,25 @@
           <table>
             <tbody>
               <tr>
-                <td class="tb-prop">SimCity 2</td>
+                <td >SimCity 2</td>
                 <td>
                   <progress value="90" max="100"></progress>
                 </td>
               </tr>
               <tr>
-                <td class="tb-prop">Microsoft Paint</td>
+                <td>Microsoft Paint</td>
                 <td>
                   <progress value="70" max="100"></progress>
                 </td>
               </tr>
               <tr>
-                <td class="tb-prop">Photoshop</td>
+                <td>Photoshop</td>
                 <td>
                   <progress value="60" max="100"></progress>
                 </td>
               </tr>
               <tr>
-                <td class="tb-prop">JavaScript</td>
+                <td>JavaScript</td>
                 <td>
                   <progress value="40" max="100"></progress>
                 </td>
@@ -113,51 +111,47 @@
         </section>
         <section id="Hobbies">
           <h3>Hobbies</h3>
-          <table class="hobbies">
-            <tbody>
-              <tr>
-                <td><i class="fa-stack fa-2x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bicycle fa-stack-1x fa-inverse"></i></i></td>
-                <td><i class="fa-stack fa-2x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i></i></td>
-                <td><i class="fa-stack fa-2x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-book fa-stack-1x fa-inverse"></i></i></td>
-              </tr>
-              <tr>
-                <td>Bicycle</td>
-                <td>Twitter </td>
-                <td> Reading </td>
-              </tr>
-              <tr>
-                <td>
-                  <i class="fa-stack fa-2x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-cutlery fa-stack-1x fa-inverse"></i> </i>
-                </td>
-                <td>
-                  <i class="fa-stack fa-2x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-hotel fa-stack-1x fa-inverse"></i></i>
-                </td>
-                <td>
-                  <i class="fa-stack fa-2x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-flask fa-stack-1x fa-inverse"></i></i>
-                </td>
-              </tr>
-              <tr>
-                <td>Eating</td>
-                <td>Zzzzzz </td>
-                <td> Science </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="hobbiesflex">
+            <div class="hobby">
+              <i class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i></i>
+                  <p>Tweeting</p>
+            </div>
+            <div class="hobby">
+              <i class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-book fa-stack-1x fa-inverse"></i></i>
+                  <p>Reading</p>
+            </div>
+            <div class="hobby">
+              <i class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-bicycle fa-stack-1x fa-inverse"></i></i>
+                  <p>Bicycle</p>
+            </div>
+            <div class="hobby">
+              <i class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-cutlery fa-stack-1x fa-inverse"></i></i>
+                  <p>Cooking</p>
+            </div>
+            <div class="hobby">
+              <i class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-hotel fa-stack-1x fa-inverse"></i></i>
+                  <p>Travel</p>
+            </div>
+            <div class="hobby">
+              <i class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-flask fa-stack-1x fa-inverse"></i></i>
+                  <p>Bicycle</p>
+            </div>
+          </div>
         </section>
       </div>
-      <div class="col-md-8" id="right-column">
+      <div id="right-column">
         <section id="work">
           <h3>Work</h3>
           <table class="work">
@@ -189,7 +183,13 @@
         <section id="professional">
           <h3>Professional Skills</h3>
           <div class="circle-section">
-
+            <div class="c100 p100">
+              <span>Design</span>
+              <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+              </div>
+            </div>
             <div class="c100 p100">
               <span>Design</span>
               <div class="slice">
@@ -211,13 +211,7 @@
                 <div class="fill"></div>
               </div>
             </div>
-            <div class="c100 p50">
-              <span>Management</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
+          
           </div>
         </section>
         <section id="education">
@@ -242,11 +236,11 @@
           </table>
         </section>
       </div>
-    </div>
-  </section>
+    </section>
+
 
   <!-- Contact Info -->
-  <div class="container1 contact">
+  <div class="contact">
     <div class="social">
       <a href="www.linkedin.com">
         <i class="fa-stack fa-lg">
@@ -274,7 +268,7 @@
 
   </div>
   <!-- Footer -->
-  <footer class="container1">
+  <footer>
     <p>123 Fluffington Avenue, Providence, RI 00000 Call +1 (401) 867-5309 Email: boris.fluffington@fluffy.com <small>www.flufflynugget.com</small></p>
   </footer>
 </body>
